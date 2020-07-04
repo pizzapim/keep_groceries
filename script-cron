@@ -1,3 +1,2 @@
-# 0 0 * * FRI
-* * * * * /usr/local/bin/python /usr/src/app/script.py >> /var/log/cron.log 2>&1
+0 0 * * FRI /usr/local/bin/python /usr/src/app/script.py >> /var/log/cron.log 2>&1
 
