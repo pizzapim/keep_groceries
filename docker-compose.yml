@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  keep_groceries:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: keep_groceries
